@@ -1,1 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rakesh Pasala - Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-inter">
+    <header class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-6 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div class="flex items-center mb-4 md:mb-0">
+          <h1 class="text-3xl font-bold mr-4">Rakesh Pasala</h1>
+          <span class="inline-block bg-black/50 text-xs px-2 py-1 rounded-full border border-white/20">Data Analyst</span>
+        </div>
+        <nav class="hidden md:block">
+          <ul class="flex space-x-6">
+            <li><a href="#about" class="hover:text-gray-200 transition duration-300">About</a></li>
+            <li><a href="#skills" class="hover:text-gray-200 transition duration-300">Skills</a></li>
+            <li><a href="#projects" class="hover:text-gray-200 transition duration-300">Projects</a></li>
+            <li><a href="#education" class="hover:text-gray-200 transition duration-300">Education</a></li>
+            <li><a href="#contact" class="hover:text-gray-200 transition duration-300">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Toggle Navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-50">
+      <div class="bg-gray-800 w-80 h-full absolute right-0 p-6">
+        <div class="flex justify-end mb-4">
+          <button id="close-menu-btn" class="text-white focus:outline-none" aria-label="Close Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <nav class="block">
+          <ul class="space-y-4">
+            <li><a href="#about" class="block text-lg text-white hover:text-gray-300 transition duration-300">About</a></li>
+            <li><a href="#skills" class="block text-lg text-white hover:text-gray-300 transition duration-300">Skills</a></li>
+            <li><a href="#projects" class="block text-lg text-white hover:text-gray-300 transition duration-300">Projects</a></li>
+             <li><a href="#education" class="block text-lg text-white hover:text-gray-300 transition duration-300">Education</a></li>
+            <li><a href="#contact" class="block text-lg text-white hover:text-gray-300 transition duration-300">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section id="about" class="bg-gray-100 py-16 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-3xl font-semibold text-gray-800 mb-4">About Me</h2>
+          <p class="text-gray-700 leading-relaxed">
+            Throughout my academic career, I developed a strong interest in the intersection of data and technology,
+            which led me to specialize in Machine Learning. I have gained hands-on experience with algorithms for
+            analyzing large datasets and making data-driven predictions. As I transition into the professional realm, I
+            am eager to apply my analytical skills and problem-solving abilities to contribute to a team focused on
+            innovation and data-driven solutions. As an entry-level candidate, I am enthusiastic about the opportunity
+            to grow, collaborate, and make a significant impact in a dynamic, fast-paced industry.
+          </p>
+        </div>
+        <div class="rounded-lg flex justify-center bg-gray-100">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQGGGS420Ntwsg/profile-displayphoto-shrink_800_800/B56ZZIIbZqHQAc-/0/1744966891602?e=1750291200&v=beta&t=gwUwpf_dj6OzjFBT1Oex-1IhpP_imXHtC26ArVYkHHs" />
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-white py-16 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          <div class="bg-gray-50 rounded-lg shadow-md p-6 ">
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">Programming Languages</h3>
+              <p class="text-gray-600">Python, PL SQL</p>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-lg shadow-md p-6">
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">ML Frameworks</h3>
+              <p class="text-gray-600">Keras, PyTorch, Scikit-learn, Pandas, ML with Python</p>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-lg shadow-md p-6">
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">Tools</h3>
+              <p class="text-gray-600">Power BI, Tableau, Flask</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="bg-gray-100 py-16 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Flight Fare Prediction System Using ML</h3>
+            <p class="text-gray-600 mb-4">
+              Developed a flight fare prediction web app using machine learning that accurately forecasts lower prices
+              and suggests optimal booking times, enhancing user experience and making travel planning more affordable.
+            </p>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Utilized data-driven insights to identify key patterns, offering real-time recommendations for maximum savings.</li>
+            </ul>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Cricket Analytics Dashboard</h3>
+            <p class="text-gray-600 mb-4">
+              Created interactive dashboards in Power BI for cricket data analysis, visualizing player and team
+              performance metrics.
+            </p>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Applied data analysis techniques to deliver actionable insights and predictive models for match strategies
+                and outcomes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="bg-white py-16 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Education</h2>
+        <div class="grid grid-cols-1 gap-6">
+          <div class="bg-gray-50 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">B.Tech. in Electronics and Communication Engineering</h3>
+            <p class="text-gray-600 mb-1">SRM Institute of Science and Technology, Chennai</p>
+            <p class="text-gray-600 mb-1">CGPA-8.3/10</p>
+            <p class="text-gray-600">June 2019-May2023</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-16 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Contact</h2>
+        <div class="text-center">
+          <a href="mailto:pasalarakesh4@gmail.com" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 mb-4 inline-block">
+            Email: pasalarakesh4@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/rakeshpasala18/" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 mr-2 inline-block">
+            LinkedIn Profile
+          </a>
+          <a href="https://github.com/RAKESHPASALA" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 inline-block">
+            GitHub Profile
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-100 py-16 px-4 sm:px-6 md:px-8">
+      <div class="container mx-auto text-center">
+      </div>
+    </footer>
+
+    <script>
+      const hamburgerBtn = document.getElementById("hamburger-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const closeMenuBtn = document.getElementById("close-menu-btn");
+      const mobileMenuLinks = mobileMenu.querySelectorAll("a");
+      const navLinks = document.querySelectorAll('.nav-links a');
+      const sections = document.querySelectorAll('section');
+
+      function toggleMobileMenu() {
+        mobileMenu.classList.toggle("hidden");
+      }
+
+      hamburgerBtn.addEventListener("click", toggleMobileMenu);
+      closeMenuBtn.addEventListener("click", toggleMobileMenu);
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener("click", toggleMobileMenu);
+      });
+
+      document.addEventListener('click', (event) => {
+        if (!mobileMenu.classList.contains('hidden') && !mobileMenu.contains(event.target) && event.target !== hamburgerBtn) {
+          toggleMobileMenu();
+        }
+      });
+
+      function updateActiveNavLink() {
+        let currentSectionId = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+            currentSectionId = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href').slice(1) === currentSectionId) {
+            link.classList.add('active');
+          }
+        });
+      }
+
+      window.addEventListener('scroll', updateActiveNavLink);
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
 
